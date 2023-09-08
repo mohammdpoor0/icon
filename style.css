@@ -1,0 +1,56 @@
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+.img{
+    width: 330px;
+    height: 230px;
+}
+.h1{
+    color: aliceblue;
+    line-height: 15px;
+    letter-spacing: 7px;
+    text-indent: 15px;
+}
+.box{
+    text-align: justify;
+    padding: 10px;
+}
+.flex div{
+    background-color: rgb(141, 153, 30);
+    margin: 49px;
+    border-radius: 10px;
+}
+.flex{
+    padding: 55px;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.icon{
+    background-color: rgb(144, 155, 30);
+    width: 20px;
+padding: 0px;
+font-size: 17px;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+position: fixed;
+top: 0;
+left: 0;
+}
+.div{
+    overflow: hidden;
+   
+}
+div:hover{
+    width: 100px;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
